@@ -1,11 +1,14 @@
 import setuptools
 
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+
+
 setuptools.setup(
     name="fastapi-mail",
-    version=__import__("fastapi_mail").VERSION,
+    version="0.3.0.3",
     author="Sabuhi Shukurov",
     author_email="sabuhi.shukurov@gmail.com",
     description="Simple lightwigh mail sending for FastApi",
